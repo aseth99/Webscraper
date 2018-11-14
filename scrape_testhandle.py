@@ -3,7 +3,7 @@ from urllib.error import HTTPError
 from urllib.error import URLError
 
 try:
-	html = urlopen("http://www.pythonscraping.com/pages/page1.html")
+	html = urlopen("http://www.pythonscraping.com/pages/pfd1.html")
 except HTTPError as e:
 	print(e) #website exists, file doesnt?
 	#return null, break or other...
