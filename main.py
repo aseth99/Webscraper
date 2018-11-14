@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 url = 'https://api.coinbase.com/v2/prices/USD/spot?'
 response = requests.get(url).json()
 
+print(response)
+
 for x in range(11):
 	print((response['data'][x]['currency'])+" "+(response['data'][x]['base'])+" "+(response['data'][x]['amount']))
 
