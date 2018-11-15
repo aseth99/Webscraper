@@ -39,9 +39,11 @@ bsObj = BeautifulSoup(html, "lxml")
 
 titleList = bsObj.findAll("a", {"id": "title"})
 #linkList = bsObj.findAll("a", href=True)
-summaryList = bsObj.findAll("p", {"id": "summary"})
+# summaryList = bsObj.findAll("p", {"id": "summary"})
 
-
+with open("foodingredientsfirst.csv", "a") as csv_file:
+		writer = csv.writer(csv_file)
+		writer.writerow(["TITLE OF ARTICLE", "URL OF ARTICLE", "SUMMARY", "DATE/TIME INFO WAS EXTRACTED"])
 #loop prints out each article, url and paragraph
 #each loop also writes a new row with that info into the csv file
 for name in titleList:
