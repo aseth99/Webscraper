@@ -1,20 +1,25 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
+from urllib.request import urlopen
+from urllib.error import HTTPError
+from urllib.error import URLError
+
+import ssl
+
+import csv
+from datetime import datetime
+
 #SSL: CERTIFICATE_VERIFY_FAILED
 #to bypass verification....:
 #https://access.redhat.com/articles/2039753 explains certificate verification in python
 #i bypassed verification, not sure if that is correct way of doing it, or if i should try and get url verified
-import ssl
 
 # This restores the same behavior as before.
 context = ssl._create_unverified_context()
 #urllib.urlopen("https://no-valid-cert", context=context )
 #https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error where i got bypassing verification code
 
-from urllib.request import urlopen
-from urllib.error import HTTPError
-from urllib.error import URLError
 
 try:
 	html = urlopen("https://www.foodingredientsfirst.com/news/category/dairy.html", context=context)
@@ -37,14 +42,26 @@ titleList = bsObj.findAll("a", {"id": "title"})
 summaryList = bsObj.findAll("p", {"id": "summary"})
 
 
+#loop prints out each article, url and paragraph
+#each loop also writes a new row with that info into the csv file
 for name in titleList:
 	print("title of article: \n", name.get_text())
 	print("url: \n", name["href"])
 	print("\nfirst paragraph of article: \n", name.findNext("p").get_text())
+	with open("foodingredientsfirst.csv", "a") as csv_file:
+		writer = csv.writer(csv_file)
+		writer.writerow([name.get_text(), name.findNext("p").get_text(), name["href"], datetime.now()])
+
+	#ayeee it works
 	
 # for summ in summaryList:
 # 	print(summ.get_text())
 
 # for a in soup.findAll('a', href=True):
 #     print "Found the URL:", a['href']
+
+#now that we have info, lets store in csv
+
+# open a csv file with append, so old data will not be erased
+
 	
