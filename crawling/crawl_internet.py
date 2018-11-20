@@ -49,7 +49,7 @@ def getRandomExternalLink(startingPage):
 	
 
 	
-
+	print("opening... "+ startingPage)
 	html = urlopen(startingPage, context=context)
 
 
@@ -63,7 +63,7 @@ def getRandomExternalLink(startingPage):
 		print("len internal links: ", len(internalLinks))
 		if len(internalLinks) == 0:
 			print("no internal or external links...starting over...")
-			return followExternalOnly("http://python.org")
+			return followExternalOnly("https://www.foodingredientsfirst.com/news/category/dairy.html")
 		else:
 			return getRandomExternalLink(internalLinks[random.randint(0, len(internalLinks)-1)])
 	else:
@@ -114,10 +114,10 @@ def getAllExternalLinks(siteUrl):
 			allIntLinks.add(link)
 			print(link)
 
-allIntLinks.add("http:python.org")
-getAllExternalLinks("http://python.org")
+allIntLinks.add("https://www.foodingredientsfirst.com/news/category/dairy.html")
+getAllExternalLinks("https://www.foodingredientsfirst.com/news/category/dairy.html")
 
-followExternalOnly("http://python.org")
+followExternalOnly("https://www.foodingredientsfirst.com/news/category/dairy.html")
 
 
 
