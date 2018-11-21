@@ -1,0 +1,2220 @@
+{
+  "pagination": {
+    "per_page": 50,
+    "pages": 73,
+    "page": 1,
+    "urls": {
+      "last": "https://api.discogs.com/database/search?q=Louis+The+Child&per_page=50&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq&page=73",
+      "next": "https://api.discogs.com/database/search?q=Louis+The+Child&per_page=50&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq&page=2"
+    },
+    "items": 3634
+  },
+  "results": [
+    {
+      "thumb": "https://img.discogs.com/u_rQEDrzX60biRm30vamU0FH2vI=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-3614738-1501538188-9022.jpeg.jpg",
+      "title": "Louis The Child",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "master_url": null,
+      "uri": "/artist/3614738-Louis-The-Child",
+      "cover_image": "https://img.discogs.com/amrmt0LU5GNY9isOHY6kzkgTWsk=/500x500/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-3614738-1501538188-9022.jpeg.jpg",
+      "resource_url": "https://api.discogs.com/artists/3614738",
+      "master_id": null,
+      "type": "artist",
+      "id": 3614738
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/tCF_uCFWyWTGzjpPYRvi_a-9q20=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2975790-1413566244-5251.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/master/146019",
+      "title": "Louis Armstrong And The All Stars* With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "UK",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 547,
+        "have": 2792
+      },
+      "label": [
+        "Brunswick"
+      ],
+      "cover_image": "https://img.discogs.com/qhpC9iHSYdwKT15nJ-0eQB245mY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2975790-1413566244-5251.jpeg.jpg",
+      "catno": "LAT 8270",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1958",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/masters/146019",
+      "master_id": 146019,
+      "type": "master",
+      "id": 146019
+    },
+    {
+      "thumb": "https://img.discogs.com/1wldRt6K1b-4B3u8TypdevoA3sg=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-789-1276598037.jpeg.jpg",
+      "title": "Lil' Louis",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "master_url": null,
+      "uri": "/artist/789-Lil-Louis",
+      "cover_image": "https://img.discogs.com/HT2p7PgWjpY3Oux21J7U-fKH_CQ=/402x600/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-789-1276598037.jpeg.jpg",
+      "resource_url": "https://api.discogs.com/artists/789",
+      "master_id": null,
+      "type": "artist",
+      "id": 789
+    },
+    {
+      "style": [],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/S1DQlLX3QE5wPwD1EYNeKdXMRGQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1917075-1252310884.jpeg.jpg",
+      "uri": "/Louis-Armstrong-Louis-And-The-Angels/master/376835",
+      "title": "Louis Armstrong - Louis And The Angels",
+      "country": "France",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 51,
+        "have": 272
+      },
+      "label": [
+        "Brunswick"
+      ],
+      "cover_image": "https://img.discogs.com/VM1JtEbn1ixBUzRZ5lmGX83MIqw=/fit-in/494x480/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1917075-1252310884.jpeg.jpg",
+      "catno": "87 511",
+      "master_url": "https://api.discogs.com/masters/376835",
+      "year": "1958",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/masters/376835",
+      "master_id": 376835,
+      "type": "master",
+      "id": 376835
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "BMI",
+        "P",
+        "AL 33812",
+        "BL 33812",
+        "P P AL 33812-1G B",
+        "P P BL 33812-1E",
+        "P AL 33812-1F",
+        "P BL 33812-1E",
+        "P AL 33812-1C ",
+        "P BL 33812-1D",
+        "P AL 33812-1E",
+        "P BL 33812-1E"
+      ],
+      "thumb": "https://img.discogs.com/w2cYsxxpcehHQlevv68rAGUdyEc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-30040-1319786856.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/30040",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 1070,
+        "have": 3371
+      },
+      "label": [
+        "Columbia",
+        "Wally Heider Studios",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Columbia Records",
+        "CBS Inc.",
+        "Columbia Records Pressing Plant, Pitman"
+      ],
+      "cover_image": "https://img.discogs.com/UbVUPYR7KAIBj3H40qUvQmDPJNI=/fit-in/600x604/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-30040-1319786856.jpeg.jpg",
+      "catno": "PC 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/30040",
+      "master_id": 47832,
+      "type": "release",
+      "id": 30040
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "BMI",
+        "P",
+        "AL 33812",
+        "BL 33812",
+        "P P AL 33812-1G B",
+        "P P BL 33812-1E",
+        "P AL 33812-1F",
+        "P BL 33812-1E",
+        "P AL 33812-1C ",
+        "P BL 33812-1D",
+        "P AL 33812-1E",
+        "P BL 33812-1E"
+      ],
+      "thumb": "https://img.discogs.com/w2cYsxxpcehHQlevv68rAGUdyEc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-30040-1319786856.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/master/47832",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 6159,
+        "have": 7081
+      },
+      "label": [
+        "Columbia",
+        "Wally Heider Studios",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Columbia Records",
+        "CBS Inc.",
+        "Columbia Records Pressing Plant, Pitman"
+      ],
+      "cover_image": "https://img.discogs.com/UbVUPYR7KAIBj3H40qUvQmDPJNI=/fit-in/600x604/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-30040-1319786856.jpeg.jpg",
+      "catno": "PC 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/masters/47832",
+      "master_id": 47832,
+      "type": "master",
+      "id": 47832
+    },
+    {
+      "style": [],
+      "barcode": [
+        "042286459110",
+        "422-864-591-1-A",
+        "422-864-591-1B",
+        "0 422-864591-1 0"
+      ],
+      "thumb": "https://img.discogs.com/Z7Wkurm1IEot39R7dffswFej2jI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-313537-1218919826.jpeg.jpg",
+      "uri": "/Black-Sheep-Similak-Child/release/313537",
+      "title": "Black Sheep - Similak Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "12\"",
+        "Single",
+        "33 ⅓ RPM"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 164,
+        "have": 402
+      },
+      "label": [
+        "Mercury",
+        "Polygram Records, Inc.",
+        "Polygram Records, Inc.",
+        "Polygram Records, Inc.",
+        "PolyGram International Publishing, Inc.",
+        "Peep Bo Music",
+        "Northridge Music Co.",
+        "PRI Music, Inc."
+      ],
+      "cover_image": "https://img.discogs.com/AEFbwY79u5iIzD58rY37Ozab8ms=/fit-in/600x574/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-313537-1218919826.jpeg.jpg",
+      "catno": "864 591-1",
+      "master_url": "https://api.discogs.com/masters/69073",
+      "year": "1992",
+      "genre": [
+        "Hip Hop"
+      ],
+      "resource_url": "https://api.discogs.com/releases/313537",
+      "master_id": 69073,
+      "type": "release",
+      "id": 313537
+    },
+    {
+      "style": [],
+      "barcode": [
+        "MG 5474",
+        "MG 5475",
+        "MG5474T2 1P",
+        "MG5475T1 1P"
+      ],
+      "thumb": "https://img.discogs.com/GTMO-OfeVvsthvmPxGaFoUet-48=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3971014-1526065090-1961.bmp.jpg",
+      "uri": "/Louis-Armstrong-Louis-And-The-Angels/release/3971014",
+      "title": "Louis Armstrong - Louis And The Angels",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 18,
+        "have": 157
+      },
+      "label": [
+        "Decca"
+      ],
+      "cover_image": "https://img.discogs.com/UjLqHjcg_ivX8lN2a4_2Xii_WrA=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3971014-1526065090-1961.bmp.jpg",
+      "catno": "DL 8488",
+      "master_url": "https://api.discogs.com/masters/376835",
+      "year": "1957",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/3971014",
+      "master_id": 376835,
+      "type": "release",
+      "id": 3971014
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [
+        "B.I.E.M.",
+        "510.008 A",
+        "510.008 B",
+        "MCA 510008  A   C14",
+        "MCA 510008  B   DC",
+        "©"
+      ],
+      "thumb": "https://img.discogs.com/5Lskx0SWlS4oAKn_4sliRAs8KYA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3959758-1350578301-8633.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/3959758",
+      "title": "Louis Armstrong And The All-Stars* With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "France",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 16,
+        "have": 293
+      },
+      "label": [
+        "MCA Records",
+        "MCA Records",
+        "MCA Records",
+        "MCA Records, Inc.",
+        "Compagnie Européenne Du Disque"
+      ],
+      "cover_image": "https://img.discogs.com/-3bGNxBnXouFEST0LZ9uuFYGnUQ=/fit-in/598x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3959758-1350578301-8633.jpeg.jpg",
+      "catno": "510008",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1974",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/3959758",
+      "master_id": 146019,
+      "type": "release",
+      "id": 3959758
+    },
+    {
+      "style": [
+        "Vocal",
+        "Swing"
+      ],
+      "barcode": [
+        "AL 30783",
+        "AL 30784",
+        "BL 30784",
+        "BL 30783",
+        "P AL-30783-1C \\T",
+        "P AL-30784-1B \\T",
+        "P BL-30784-1D \\T",
+        "P BL-30783-1C \\T",
+        "ASCAP",
+        "BMI"
+      ],
+      "thumb": "https://img.discogs.com/YYNLKbyE5zKb746dSTWKmXMMvtQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2785503-1301094652.jpeg.jpg",
+      "uri": "/Billie-Holiday-God-Bless-The-Child/master/129694",
+      "title": "Billie Holiday - God Bless The Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Compilation",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 200,
+        "have": 1095
+      },
+      "label": [
+        "Columbia",
+        "John Hammond Collection",
+        "CBS Inc.",
+        "Columbia Records",
+        "CBS Inc.",
+        "Columbia"
+      ],
+      "cover_image": "https://img.discogs.com/wTE3YQp0E_5B1jITAOlKkXjFRw0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2785503-1301094652.jpeg.jpg",
+      "catno": "G 30782",
+      "master_url": "https://api.discogs.com/masters/129694",
+      "year": "1972",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/masters/129694",
+      "master_id": 129694,
+      "type": "master",
+      "id": 129694
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/nkyiPaUMapKSHBZsCdRzCH2NAN8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1208756-1411765627-4888.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "country": "France",
+      "barcode": [
+        "B.I.E.M.",
+        "LPL 487",
+        "LPL 488",
+        "♳ LPL 487 380 Made In France",
+        "♳ LPL 488 380 Made In France"
+      ],
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/1208756",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "87017 Sél.",
+      "community": {
+        "want": 18,
+        "have": 268
+      },
+      "cover_image": "https://img.discogs.com/6_bu4zMmSG6d-XpHS1s6_7wL5RM=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1208756-1411765627-4888.jpeg.jpg",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/1208756",
+      "label": [
+        "Brunswick",
+        "Brunswick",
+        "Brunswick",
+        "Société Phonographique Philips",
+        "Société Phonographique Philips",
+        "Dillard et Cie. Imp. Paris"
+      ],
+      "type": "release",
+      "id": 1208756
+    },
+    {
+      "style": [
+        "Fusion",
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "BIEM/STEMRA",
+        "CBS 69185-1 AL 33812",
+        "CBS 69185-2 BL 33812",
+        "69185-A Ⓗ",
+        "69185-B Ⓗ",
+        "Ⓨ"
+      ],
+      "thumb": "https://img.discogs.com/adkxkkCi6JF8aMk4lDGVd7cjeto=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-732329-1401826886-7854.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/732329",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "Europe",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 258,
+        "have": 825
+      },
+      "label": [
+        "CBS",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Hancock Music Company",
+        "Wah Watson Music",
+        "CBS, Haarlem",
+        "CBS, Haarlem",
+        "Shorewood Packaging"
+      ],
+      "cover_image": "https://img.discogs.com/u9KgIcbXj9R85RgUKVbezDYcvjs=/fit-in/599x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-732329-1401826886-7854.jpeg.jpg",
+      "catno": "CBS 69185",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Jazz",
+        "Funk / Soul"
+      ],
+      "resource_url": "https://api.discogs.com/releases/732329",
+      "master_id": 47832,
+      "type": "release",
+      "id": 732329
+    },
+    {
+      "style": [],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/bY-VWPwocIS3QmqHom2WBjG76ik=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5962231-1434394547-5460.jpeg.jpg",
+      "uri": "/The-Oscar-Peterson-Quartet-Night-Child/master/442331",
+      "title": "The Oscar Peterson Quartet - Night Child",
+      "country": "UK",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 440,
+        "have": 345
+      },
+      "label": [
+        "Pablo Today",
+        "Pablo Records, Inc.",
+        "Sounds Interchange"
+      ],
+      "cover_image": "https://img.discogs.com/1xrck9v1MU08_AZ8wM-x9lZoI-A=/fit-in/240x240/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5962231-1434394547-5460.jpeg.jpg",
+      "catno": "2312 108",
+      "master_url": "https://api.discogs.com/masters/442331",
+      "year": "1979",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/masters/442331",
+      "master_id": 442331,
+      "type": "master",
+      "id": 442331
+    },
+    {
+      "style": [
+        "Vocal",
+        "Swing"
+      ],
+      "barcode": [
+        "AL 30783",
+        "AL 30784",
+        "BL 30784",
+        "BL 30783",
+        "P AL-30783-1C \\T",
+        "P AL-30784-1B \\T",
+        "P BL-30784-1D \\T",
+        "P BL-30783-1C \\T",
+        "ASCAP",
+        "BMI"
+      ],
+      "thumb": "https://img.discogs.com/YYNLKbyE5zKb746dSTWKmXMMvtQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2785503-1301094652.jpeg.jpg",
+      "uri": "/Billie-Holiday-God-Bless-The-Child/release/2785503",
+      "title": "Billie Holiday - God Bless The Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Compilation",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 48,
+        "have": 672
+      },
+      "label": [
+        "Columbia",
+        "John Hammond Collection",
+        "CBS Inc.",
+        "Columbia Records",
+        "CBS Inc.",
+        "Columbia"
+      ],
+      "cover_image": "https://img.discogs.com/wTE3YQp0E_5B1jITAOlKkXjFRw0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2785503-1301094652.jpeg.jpg",
+      "catno": "G 30782",
+      "master_url": "https://api.discogs.com/masters/129694",
+      "year": "1972",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/2785503",
+      "master_id": 129694,
+      "type": "release",
+      "id": 2785503
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/JZhkM0hgmA6HAu_VZoR2DA7lTkM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2501842-1287495036.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/2501842",
+      "title": "Louis Armstrong And The All Stars* With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 35,
+        "have": 126
+      },
+      "label": [
+        "Decca",
+        "Decca Records, Inc."
+      ],
+      "cover_image": "https://img.discogs.com/BbOAMJD4wKT97yeKRxH6k-B75SI=/fit-in/480x480/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2501842-1287495036.jpeg.jpg",
+      "catno": "DL 8741",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1958",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/2501842",
+      "master_id": 146019,
+      "type": "release",
+      "id": 2501842
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/Uq_9AYZESzC8JsMESp7Kmjxnhfg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-444375-1317050162.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo",
+        "Reissue"
+      ],
+      "country": "Germany",
+      "barcode": [
+        "MG-7-6446",
+        "MG-7-6447"
+      ],
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/444375",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "COPS 1408",
+      "community": {
+        "want": 10,
+        "have": 171
+      },
+      "cover_image": "https://img.discogs.com/tlF2hfWbS4MJy_z2OToLjHS_0WI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-444375-1317050162.jpeg.jpg",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/444375",
+      "label": [
+        "Coral",
+        "MCA Records International"
+      ],
+      "type": "release",
+      "id": 444375
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/4HMIGo_-fSKzglHj5Ryu3Y8CMnY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-474945-1451856813-6099.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "country": "France",
+      "barcode": [
+        "MCA 510008 A",
+        "MCA 510008 B",
+        "B.I.E.M.",
+        "Ⓒ"
+      ],
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/474945",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "510008",
+      "community": {
+        "want": 12,
+        "have": 146
+      },
+      "cover_image": "https://img.discogs.com/pJftxIat1Gsh8lgGa86xPmIbs7E=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-474945-1451856813-6099.jpeg.jpg",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/474945",
+      "label": [
+        "MCA Records",
+        "MCA Records International",
+        "Compagnie Européenne Du Disque",
+        "MSP",
+        "MCA Records"
+      ],
+      "type": "release",
+      "id": 474945
+    },
+    {
+      "style": [],
+      "barcode": [
+        "042286459110",
+        "422-864-591-1-A",
+        "422-864-591-1B",
+        "0 422-864591-1 0"
+      ],
+      "thumb": "https://img.discogs.com/Z7Wkurm1IEot39R7dffswFej2jI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-313537-1218919826.jpeg.jpg",
+      "uri": "/Black-Sheep-Similak-Child/master/69073",
+      "title": "Black Sheep - Similak Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "12\"",
+        "Single",
+        "33 ⅓ RPM"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 294,
+        "have": 451
+      },
+      "label": [
+        "Mercury",
+        "Polygram Records, Inc.",
+        "Polygram Records, Inc.",
+        "Polygram Records, Inc.",
+        "PolyGram International Publishing, Inc.",
+        "Peep Bo Music",
+        "Northridge Music Co.",
+        "PRI Music, Inc."
+      ],
+      "cover_image": "https://img.discogs.com/AEFbwY79u5iIzD58rY37Ozab8ms=/fit-in/600x574/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-313537-1218919826.jpeg.jpg",
+      "catno": "864 591-1",
+      "master_url": "https://api.discogs.com/masters/69073",
+      "year": "1992",
+      "genre": [
+        "Hip Hop"
+      ],
+      "resource_url": "https://api.discogs.com/masters/69073",
+      "master_id": 69073,
+      "type": "master",
+      "id": 69073
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [
+        "BIEM"
+      ],
+      "thumb": "https://img.discogs.com/SL77KYya371iJobMyXpGpPn6jSQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2799375-1301574973.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/2799375",
+      "title": "Louis Armstrong And The All Stars* With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "France",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 11,
+        "have": 131
+      },
+      "label": [
+        "Decca",
+        "A.C.E.M."
+      ],
+      "cover_image": "https://img.discogs.com/WmFruVAiTLtPhesHUdC6vJ8P_cI=/fit-in/600x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2799375-1301574973.jpeg.jpg",
+      "catno": "200.004",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1967",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/2799375",
+      "master_id": 146019,
+      "type": "release",
+      "id": 2799375
+    },
+    {
+      "style": [],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/pM6QTU1X4MFOg-4Q0OQLFrDW5YA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2915116-1307091451.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Reissue"
+      ],
+      "country": "France",
+      "barcode": [],
+      "uri": "/Louis-Armstrong-And-The-All-Stars-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/2915116",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "201 285",
+      "community": {
+        "want": 12,
+        "have": 127
+      },
+      "cover_image": "https://img.discogs.com/zXiTsdZWFLnXigSh0Nc7GXmcdgQ=/fit-in/594x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2915116-1307091451.jpeg.jpg",
+      "title": "Louis Armstrong And The All Stars* & The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/2915116",
+      "label": [
+        "MCA Records",
+        "Arabella Eurodisc"
+      ],
+      "type": "release",
+      "id": 2915116
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/tCF_uCFWyWTGzjpPYRvi_a-9q20=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2975790-1413566244-5251.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/2975790",
+      "title": "Louis Armstrong And The All Stars* With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "UK",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 24,
+        "have": 109
+      },
+      "label": [
+        "Brunswick"
+      ],
+      "cover_image": "https://img.discogs.com/qhpC9iHSYdwKT15nJ-0eQB245mY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2975790-1413566244-5251.jpeg.jpg",
+      "catno": "LAT 8270",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1958",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/2975790",
+      "master_id": 146019,
+      "type": "release",
+      "id": 2975790
+    },
+    {
+      "style": [
+        "Folk Rock"
+      ],
+      "barcode": [
+        "S40,677",
+        "S40,678",
+        "W2761 40677-1 TML P",
+        "W2761 40678-1X TML P",
+        "BMI"
+      ],
+      "thumb": "https://img.discogs.com/5NyTYnAxK1JEhAQe2WYUWQ_tGGk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1598355-1456340281-1159.jpeg.jpg",
+      "uri": "/Seals-Crofts-Unborn-Child/master/119768",
+      "title": "Seals & Crofts - Unborn Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 64,
+        "have": 1326
+      },
+      "label": [
+        "Warner Bros. Records",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "The Mastering Lab",
+        "Columbia Records Pressing Plant, Pitman",
+        "The Sound Factory"
+      ],
+      "cover_image": "https://img.discogs.com/Ni-11XE0VrYoXkCemO0TTUKgTIM=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1598355-1456340281-1159.jpeg.jpg",
+      "catno": "W 2761",
+      "master_url": "https://api.discogs.com/masters/119768",
+      "year": "1974",
+      "genre": [
+        "Rock"
+      ],
+      "resource_url": "https://api.discogs.com/masters/119768",
+      "master_id": 119768,
+      "type": "master",
+      "id": 119768
+    },
+    {
+      "style": [
+        "Folk Rock"
+      ],
+      "barcode": [
+        "S40,677",
+        "S40,678",
+        "W2761 40677-1 TML P",
+        "W2761 40678-1X TML P",
+        "BMI"
+      ],
+      "thumb": "https://img.discogs.com/5NyTYnAxK1JEhAQe2WYUWQ_tGGk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1598355-1456340281-1159.jpeg.jpg",
+      "uri": "/Seals-Crofts-Unborn-Child/release/1598355",
+      "title": "Seals & Crofts - Unborn Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 18,
+        "have": 958
+      },
+      "label": [
+        "Warner Bros. Records",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "The Mastering Lab",
+        "Columbia Records Pressing Plant, Pitman",
+        "The Sound Factory"
+      ],
+      "cover_image": "https://img.discogs.com/Ni-11XE0VrYoXkCemO0TTUKgTIM=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1598355-1456340281-1159.jpeg.jpg",
+      "catno": "W 2761",
+      "master_url": "https://api.discogs.com/masters/119768",
+      "year": "1974",
+      "genre": [
+        "Rock"
+      ],
+      "resource_url": "https://api.discogs.com/releases/1598355",
+      "master_id": 119768,
+      "type": "release",
+      "id": 1598355
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [
+        "8436028698813",
+        "771707 94361E1/A",
+        "771707 94361E2/A"
+      ],
+      "thumb": "https://img.discogs.com/dcQXAVEvz8rmdCXV_eIUIr17mLw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5536057-1484734116-7865.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/5536057",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "Spain",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Reissue"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 13,
+        "have": 100
+      },
+      "label": [
+        "WaxTime",
+        "GZ Digital Media"
+      ],
+      "cover_image": "https://img.discogs.com/LMexoVW2Zw-V27wbl06-hkJa2os=/fit-in/600x602/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5536057-1484734116-7865.jpeg.jpg",
+      "catno": "771707",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "2011",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5536057",
+      "master_id": 146019,
+      "type": "release",
+      "id": 5536057
+    },
+    {
+      "style": [
+        "Fusion",
+        "Jazz-Funk"
+      ],
+      "master_id": 47832,
+      "thumb": "https://img.discogs.com/IQMU8YxHMQla3rCgyjW_YUyZSbE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2328706-1277893066.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+      ],
+      "country": "US",
+      "barcode": [
+        "AL 33812",
+        "BL 33812",
+        "AL-33812-A—1B",
+        "BL-33812-B RM"
+      ],
+      "uri": "/Herbie-Hancock-Man-Child/release/2328706",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "PC 33812",
+      "community": {
+        "want": 223,
+        "have": 398
+      },
+      "cover_image": "https://img.discogs.com/d8CcAVGs2_IwOz-cFF-pfjABVSA=/fit-in/400x400/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2328706-1277893066.jpeg.jpg",
+      "title": "Herbie Hancock - Man-Child",
+      "resource_url": "https://api.discogs.com/releases/2328706",
+      "label": [
+        "Columbia",
+        "Wally Heider Studios"
+      ],
+      "type": "release",
+      "id": 2328706
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/kTSUFpjTLPYh-Pc9ypD6s9KK-4k=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4254780-1359843603-6852.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "country": "Germany",
+      "barcode": [
+        "MG-06446-II",
+        "MG-06447",
+        "GEMA"
+      ],
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/4254780",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "COPS 1408",
+      "community": {
+        "want": 11,
+        "have": 108
+      },
+      "cover_image": "https://img.discogs.com/IbXKtvxaJOGS8eDIj1fjrcQoSMw=/fit-in/429x426/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4254780-1359843603-6852.jpeg.jpg",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/4254780",
+      "label": [
+        "Coral",
+        "MCA Records International"
+      ],
+      "type": "release",
+      "id": 4254780
+    },
+    {
+      "style": [],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/bY-VWPwocIS3QmqHom2WBjG76ik=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5962231-1434394547-5460.jpeg.jpg",
+      "uri": "/The-Oscar-Peterson-Quartet-Night-Child/release/5962231",
+      "title": "The Oscar Peterson Quartet - Night Child",
+      "country": "UK",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 68,
+        "have": 64
+      },
+      "label": [
+        "Pablo Today",
+        "Pablo Records, Inc.",
+        "Sounds Interchange"
+      ],
+      "cover_image": "https://img.discogs.com/1xrck9v1MU08_AZ8wM-x9lZoI-A=/fit-in/240x240/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5962231-1434394547-5460.jpeg.jpg",
+      "catno": "2312 108",
+      "master_url": "https://api.discogs.com/masters/442331",
+      "year": "1979",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5962231",
+      "master_id": 442331,
+      "type": "release",
+      "id": 5962231
+    },
+    {
+      "style": [
+        "Fusion",
+        "Jazz-Funk"
+      ],
+      "master_id": 47832,
+      "thumb": "https://img.discogs.com/XjovodlOPj8AovZG0YIIvOJ0IyI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-43866-1317571365.jpeg.jpg",
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "country": "Europe",
+      "barcode": [
+        "5 099747 123528",
+        "5099747123528",
+        "S0147123510-0101 31",
+        "Sony Music S0147123510-0101 31 A04",
+        "IFPI L551",
+        "IFPI 944S",
+        "IFPI 948A",
+        "IFPI 94K1",
+        "BIEM/STEMRA",
+        "LC 0162",
+        "CB 741",
+        "CDM",
+        "01-471235-10"
+      ],
+      "uri": "/Herbie-Hancock-Man-Child/release/43866",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "471235 2",
+      "community": {
+        "want": 110,
+        "have": 317
+      },
+      "cover_image": "https://img.discogs.com/RfEQUpSEuxjh_IW_YxbnoQjcbiQ=/fit-in/594x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-43866-1317571365.jpeg.jpg",
+      "title": "Herbie Hancock - Man-Child",
+      "resource_url": "https://api.discogs.com/releases/43866",
+      "label": [
+        "Legacy",
+        "Columbia",
+        "Legacy",
+        "Columbia",
+        "Columbia Jazz Contemporary Masters",
+        "Sony Music Entertainment Inc.",
+        "Sony Music Entertainment Inc.",
+        "Sony Music",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound"
+      ],
+      "type": "release",
+      "id": 43866
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "4260019714305",
+        "A33 PC33812A WM",
+        "A33 PC33812B WM"
+      ],
+      "thumb": "https://img.discogs.com/JiHvbeFET9XheNnvTZvrhd-bqdU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5133035-1541090086-6466.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/5133035",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "Germany",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Limited Edition",
+        "Reissue",
+        "Remastered"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 223,
+        "have": 178
+      },
+      "label": [
+        "Columbia",
+        "Speakers Corner Records",
+        "Sony Music Entertainment Netherlands B.V.",
+        "CBS Inc.",
+        "Sony Music Entertainment",
+        "Sony Music Entertainment",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound"
+      ],
+      "cover_image": "https://img.discogs.com/OlVcrC2TaMiqZUtNeqSdfcgsOgk=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5133035-1541090086-6466.jpeg.jpg",
+      "catno": "PC 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "2013",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5133035",
+      "master_id": 47832,
+      "type": "release",
+      "id": 5133035
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/DszdUjHPsarh4U-fdT6-UHruk_Q=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1692223-1303142993.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "country": "France",
+      "barcode": [
+        "BIEM",
+        "6446 A GP",
+        "G 6447 B",
+        "6446",
+        "6447"
+      ],
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/1692223",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "MAPS 1408",
+      "community": {
+        "want": 11,
+        "have": 76
+      },
+      "cover_image": "https://img.discogs.com/LUjHnN9le7jN7O_uubbILV1TLv0=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1692223-1303142993.jpeg.jpg",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/1692223",
+      "label": [
+        "MCA Records",
+        "La Compagnie"
+      ],
+      "type": "release",
+      "id": 1692223
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [
+        "NA-3290-2009",
+        "87238 A 19LA",
+        "87238 B 19LA"
+      ],
+      "thumb": "https://img.discogs.com/7L6S2kjPYjGjIDR-wvxDzzF9Idc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2576928-1389826576-7824.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/2576928",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "Spain",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Reissue"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 12,
+        "have": 83
+      },
+      "label": [
+        "Coral",
+        "Planeta DeAgostini",
+        "Universal Music Spain S.L.",
+        "Record Industry"
+      ],
+      "cover_image": "https://img.discogs.com/q--cKMD5hEvYovqxhT9ymAIDzXI=/fit-in/429x426/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2576928-1389826576-7824.jpeg.jpg",
+      "catno": "COPS 1408",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "2010",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/2576928",
+      "master_id": 146019,
+      "type": "release",
+      "id": 2576928
+    },
+    {
+      "style": [
+        "Drum n Bass",
+        "Hip Hop"
+      ],
+      "barcode": [
+        "LC03098",
+        "bel / BIEM"
+      ],
+      "thumb": "https://img.discogs.com/AUP6F_tZ4FqJMNbih-pvm6299LE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-953373-1361722538-2663.jpeg.jpg",
+      "uri": "/Roni-Size-Cypress-Hill-Child-Of-The-Wild-West/release/953373",
+      "title": "Roni Size & Cypress Hill - Child Of The Wild West",
+      "country": "Europe",
+      "format": [
+        "Vinyl",
+        "12\"",
+        "33 ⅓ RPM",
+        "Promo"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 44,
+        "have": 72
+      },
+      "label": [
+        "Virgin",
+        "Immortal Records"
+      ],
+      "cover_image": "https://img.discogs.com/AuqkTpEPT4yzeSqmQQVw-TAbWyY=/fit-in/576x432/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-953373-1361722538-2663.jpeg.jpg",
+      "catno": "VUSTDJ246",
+      "master_url": "https://api.discogs.com/masters/17589",
+      "year": "2002",
+      "genre": [
+        "Electronic",
+        "Hip Hop",
+        "Stage & Screen"
+      ],
+      "resource_url": "https://api.discogs.com/releases/953373",
+      "master_id": 17589,
+      "type": "release",
+      "id": 953373
+    },
+    {
+      "style": [
+        "Swing"
+      ],
+      "barcode": [
+        "MG5474T2 1PS",
+        "MG5475T2 1PS"
+      ],
+      "thumb": "https://img.discogs.com/m1uBC2CLNvotKW8zvGosNEOd4Cc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3923396-1349374253-7518.png.jpg",
+      "uri": "/Louis-Armstrong-Louis-And-The-Angels/release/3923396",
+      "title": "Louis Armstrong - Louis And The Angels",
+      "country": "Canada",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 7,
+        "have": 41
+      },
+      "label": [
+        "Decca"
+      ],
+      "cover_image": "https://img.discogs.com/DcW6QU9P-D5JggsWajZgUJbudS0=/fit-in/241x240/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3923396-1349374253-7518.png.jpg",
+      "catno": "DL 8488",
+      "master_url": "https://api.discogs.com/masters/376835",
+      "year": "1957",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/3923396",
+      "master_id": 376835,
+      "type": "release",
+      "id": 3923396
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [
+        "COPS 1408-A 7-1-71",
+        "COPS 1408-B 7-1-71"
+      ],
+      "thumb": "https://img.discogs.com/kj7u7yCJZhnbjjFaaD2Rx7xmaTo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6623268-1540032983-1894.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/6623268",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "Italy",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 9,
+        "have": 79
+      },
+      "label": [
+        "Coral",
+        "MCA Records International"
+      ],
+      "cover_image": "https://img.discogs.com/nkuSythpIccmwCym5nqc26AM_AY=/fit-in/600x591/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6623268-1540032983-1894.jpeg.jpg",
+      "catno": "COPS 1408",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1971",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/6623268",
+      "master_id": 146019,
+      "type": "release",
+      "id": 6623268
+    },
+    {
+      "style": [],
+      "barcode": [
+        "2312 108 PP-2205",
+        "2312 108 PP2206"
+      ],
+      "thumb": "https://img.discogs.com/PhIYskStguvXnQFtXrAPU4dba9o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9629686-1484056797-8575.jpeg.jpg",
+      "uri": "/The-Oscar-Peterson-Quartet-Night-Child/release/9629686",
+      "title": "The Oscar Peterson Quartet - Night Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 40,
+        "have": 69
+      },
+      "label": [
+        "Pablo Today"
+      ],
+      "cover_image": "https://img.discogs.com/gPJRdP3lY9GSJZaSsdmZbMuYSgM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9629686-1484056797-8575.jpeg.jpg",
+      "catno": "2312 108",
+      "master_url": "https://api.discogs.com/masters/442331",
+      "year": "1979",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/9629686",
+      "master_id": 442331,
+      "type": "release",
+      "id": 9629686
+    },
+    {
+      "thumb": "",
+      "title": "Louis C. Singer",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "master_url": null,
+      "uri": "/artist/768465-Louis-C-Singer",
+      "cover_image": "https://img.discogs.com/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/artists/768465",
+      "master_id": null,
+      "type": "artist",
+      "id": 768465
+    },
+    {
+      "style": [
+        "Vocal"
+      ],
+      "barcode": [
+        "STEMRA"
+      ],
+      "thumb": "https://img.discogs.com/wsXYX62Fb_d-13eEgdw7bIxCBg8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3742106-1462386309-1469.jpeg.jpg",
+      "uri": "/Billie-Holiday-God-Bless-The-Child/release/3742106",
+      "title": "Billie Holiday - God Bless The Child",
+      "country": "Netherlands",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 16,
+        "have": 107
+      },
+      "label": [
+        "CBS",
+        "John Hammond Collection"
+      ],
+      "cover_image": "https://img.discogs.com/r3R84Acy3j3ISmO2gS1TGrhoXcI=/fit-in/481x480/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3742106-1462386309-1469.jpeg.jpg",
+      "catno": "M 66267",
+      "master_url": "https://api.discogs.com/masters/129694",
+      "year": "1972",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/3742106",
+      "master_id": 129694,
+      "type": "release",
+      "id": 3742106
+    },
+    {
+      "style": [
+        "Fusion",
+        "Jazz-Funk"
+      ],
+      "master_id": 47832,
+      "thumb": "https://img.discogs.com/h9pPY_1pvVoRyV2AMAmiq1zGU0M=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3008940-1382983685-7876.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+      ],
+      "country": "Netherlands",
+      "barcode": [
+        "CB 231",
+        "54 [In circle]",
+        "01-032111-20",
+        "(CBS 69185/PC 33812)",
+        "LC 0149",
+        "LC-0149",
+        "BMI",
+        "BIEM/STEMRA",
+        "01-032111-1 CBS 69185-1",
+        "01-032111-2 CBS 69185-2",
+        "69185-A Ⓗ",
+        "NL 01-69185-1B-1 B"
+      ],
+      "uri": "/Herbie-Hancock-Man-Child/release/3008940",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz",
+        "Funk / Soul"
+      ],
+      "catno": "CBS 32111",
+      "community": {
+        "want": 191,
+        "have": 122
+      },
+      "cover_image": "https://img.discogs.com/m-G74iIwEcaKVF6dNtTdaDV9SPk=/fit-in/600x597/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3008940-1382983685-7876.jpeg.jpg",
+      "title": "Herbie Hancock - Man-Child",
+      "resource_url": "https://api.discogs.com/releases/3008940",
+      "label": [
+        "CBS",
+        "CBS",
+        "CBS Inc.",
+        "CBS Inc.",
+        "CBS Disques",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound",
+        "Hancock Music",
+        "Wah Watson Music"
+      ],
+      "type": "release",
+      "id": 3008940
+    },
+    {
+      "style": [
+        "Fusion",
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "P AL 33812-1F",
+        "P BL 33812-1F"
+      ],
+      "thumb": "https://img.discogs.com/BBmgrnQQV3Y5hvWScdqycK1TUW0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1144223-1195658281.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/1144223",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Promo"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 207,
+        "have": 109
+      },
+      "label": [
+        "Columbia"
+      ],
+      "cover_image": "https://img.discogs.com/F2ZUEWX07dA0nYRE5J15XTNaXng=/fit-in/600x604/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1144223-1195658281.jpeg.jpg",
+      "catno": "PC 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Electronic",
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/1144223",
+      "master_id": 47832,
+      "type": "release",
+      "id": 1144223
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "master_id": 146019,
+      "thumb": "https://img.discogs.com/H4UnORTVGPRs5_d-JIvIjSmnGps=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6541312-1421772376-9377.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+      ],
+      "country": "Germany",
+      "barcode": [
+        "MG-7-6446",
+        "MG-7-6447",
+        "MG-06446-Ⅱ",
+        "MG-06447",
+        "Manufactured in Germany",
+        "GEMA"
+      ],
+      "uri": "/Louis-Armstrong-And-His-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/6541312",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "COPS 1408",
+      "community": {
+        "want": 9,
+        "have": 68
+      },
+      "cover_image": "https://img.discogs.com/zklCX6fkURKK1YOfgZVBCvzRIjw=/fit-in/600x597/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6541312-1421772376-9377.jpeg.jpg",
+      "title": "Louis Armstrong And His All-Stars With The Sy Oliver Choir - Louis And The Good Book",
+      "resource_url": "https://api.discogs.com/releases/6541312",
+      "label": [
+        "MCA Coral",
+        "MCA Records, Inc.",
+        "TELDEC »Telefunken-Decca« Schallplatten GmbH"
+      ],
+      "type": "release",
+      "id": 6541312
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "master_id": 47832,
+      "thumb": "https://img.discogs.com/-qZC859Z4aOf1FNTCAIr2CTMcAU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5788971-1402705756-6027.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+      ],
+      "country": "Netherlands",
+      "barcode": [
+        "69185-A",
+        "69185-B",
+        "AL 33812",
+        "BL 33812",
+        "(PC 33812)",
+        "LC 0149",
+        "BIEM / STEMRA",
+        "Y",
+        "54"
+      ],
+      "uri": "/Herbie-Hancock-Man-Child/release/5788971",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "genre": [
+        "Jazz"
+      ],
+      "catno": "69185",
+      "community": {
+        "want": 149,
+        "have": 126
+      },
+      "cover_image": "https://img.discogs.com/o372J18NcH6MDU15rtJiZPY7rZ0=/fit-in/600x601/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5788971-1402705756-6027.jpeg.jpg",
+      "title": "Herbie Hancock - Man-Child",
+      "resource_url": "https://api.discogs.com/releases/5788971",
+      "label": [
+        "CBS",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound",
+        "Shorewood Packaging"
+      ],
+      "type": "release",
+      "id": 5788971
+    },
+    {
+      "style": [
+        "Gospel",
+        "Swing"
+      ],
+      "barcode": [
+        "SACEM SACD SDRM SGDL",
+        "BA-213",
+        "510 008 A",
+        "510 008 B"
+      ],
+      "thumb": "https://img.discogs.com/lbMAvU7we5DJCMlg6cPdCXnzn7w=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7157583-1435040036-1547.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-With-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/7157583",
+      "title": "Louis Armstrong And The All Stars* With The Sy Oliver Choir - Louis And The Good Book",
+      "country": "France",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue",
+        "Stereo",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 7,
+        "have": 63
+      },
+      "label": [
+        "MCA Records",
+        "Offset France",
+        "C.P.F. Barclay",
+        "MCA Records, Inc.",
+        "MCA Records, Inc."
+      ],
+      "cover_image": "https://img.discogs.com/HEAmcpLk9TuES3HTQO3mzUoLF-I=/fit-in/600x594/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7157583-1435040036-1547.jpeg.jpg",
+      "catno": "410 101",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1978",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/7157583",
+      "master_id": 146019,
+      "type": "release",
+      "id": 7157583
+    },
+    {
+      "style": [
+        "Fusion",
+        "Electro"
+      ],
+      "barcode": [
+        "BMI",
+        "Shorewood logo",
+        "AL 33812",
+        "BL 33812",
+        "AL-33812-1A-2-G",
+        "BL-33812-1B-2-G",
+        "º"
+      ],
+      "thumb": "https://img.discogs.com/OXmbJL13CSymuyDwhtO0agNeKjo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4602104-1418423581-6384.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/4602104",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "Canada",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 173,
+        "have": 155
+      },
+      "label": [
+        "Columbia",
+        "Catero Sound Company",
+        "Columbia Records Of Canada, Ltd.",
+        "Columbia Records Of Canada, Ltd.",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Shorewood Packaging Corp. Of Canada Ltd.",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound",
+        "Customatrix"
+      ],
+      "cover_image": "https://img.discogs.com/zj2QuEou6B92RlhFoV9tCTAlFE4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4602104-1418423581-6384.jpeg.jpg",
+      "catno": "KC 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Electronic",
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/4602104",
+      "master_id": 47832,
+      "type": "release",
+      "id": 4602104
+    },
+    {
+      "style": [],
+      "barcode": [
+        "GEMA/BIEM",
+        "WE 3②1",
+        "LC 1056"
+      ],
+      "thumb": "https://img.discogs.com/ECBThEMBJOX-70tWx-nb9BZoLVA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6148084-1472742966-7734.jpeg.jpg",
+      "uri": "/Louis-Armstrong-Louis-And-The-Good-Book/release/6148084",
+      "title": "Louis Armstrong - Louis And The Good Book",
+      "country": "Europe",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "Reissue"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 9,
+        "have": 42
+      },
+      "label": [
+        "MCA Records",
+        "Record Service GmbH",
+        "MCA Records, Inc.",
+        "Jazz Heritage Series"
+      ],
+      "cover_image": "https://img.discogs.com/MTH9QErAXc8kWLLsTP6iD2G-pxM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6148084-1472742966-7734.jpeg.jpg",
+      "catno": "250 465-1",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1980",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/6148084",
+      "master_id": 146019,
+      "type": "release",
+      "id": 6148084
+    },
+    {
+      "style": [],
+      "barcode": [
+        "64469 A1 66267 A",
+        "CBS M 66267 B2 64469",
+        "64470 A1 66267 C",
+        "64470 B1 66267 D"
+      ],
+      "thumb": "https://img.discogs.com/LkLrezFSBfcsJLFgiu28jt2kCfE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4341357-1413296153-5494.jpeg.jpg",
+      "uri": "/Billie-Holiday-God-Bless-The-Child/release/4341357",
+      "title": "Billie Holiday - God Bless The Child",
+      "country": "UK",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 17,
+        "have": 90
+      },
+      "label": [
+        "CBS"
+      ],
+      "cover_image": "https://img.discogs.com/mivY0aq14BBNUXBHcafbK7xB0Do=/fit-in/450x457/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4341357-1413296153-5494.jpeg.jpg",
+      "catno": "M 66267",
+      "master_url": "https://api.discogs.com/masters/129694",
+      "year": "1972",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/4341357",
+      "master_id": 129694,
+      "type": "release",
+      "id": 4341357
+    },
+    {
+      "style": [
+        "Swing"
+      ],
+      "barcode": [
+        "7 31454 95922 3",
+        "LC 00383"
+      ],
+      "thumb": "https://img.discogs.com/7CEOckgx9QBQO_dVZW6LF_DxVdk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3167197-1318794701.jpeg.jpg",
+      "uri": "/Louis-Armstrong-Louis-And-The-Angels/release/3167197",
+      "title": "Louis Armstrong - Louis And The Angels",
+      "country": "Europe",
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 6,
+        "have": 29
+      },
+      "label": [
+        "Verve Records",
+        "Decca",
+        "Verve Master Edition",
+        "UMG Recordings, Inc.",
+        "The Verve Music Group",
+        "The Verve Music Group"
+      ],
+      "cover_image": "https://img.discogs.com/MohzEoi3FzvD8AScJE-1LZhTK3w=/fit-in/456x411/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3167197-1318794701.jpeg.jpg",
+      "catno": "549 592-2",
+      "master_url": "https://api.discogs.com/masters/376835",
+      "year": "2001",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/3167197",
+      "master_id": 376835,
+      "type": "release",
+      "id": 3167197
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "BMI",
+        "AL 33812",
+        "BL 33812",
+        "P AL 33812-1G",
+        "P BL33812-1E",
+        "P AL 33812-1F",
+        "P BL 33812-1D",
+        "P AL 33812-1F",
+        "P BL 33812-1F"
+      ],
+      "thumb": "https://img.discogs.com/GNmhVN3cwiNwMFi8IVmsUY_j3eg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8460810-1462056026-5246.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/8460810",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "US",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 136,
+        "have": 152
+      },
+      "label": [
+        "Columbia",
+        "Wally Heider Studios",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Columbia Records",
+        "CBS Inc."
+      ],
+      "cover_image": "https://img.discogs.com/l-rPoVE4DCUdi9dFqkyYlNJxzsk=/fit-in/600x585/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8460810-1462056026-5246.jpeg.jpg",
+      "catno": "PC 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/8460810",
+      "master_id": 47832,
+      "type": "release",
+      "id": 8460810
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "barcode": [
+        "0 7464-33812-2",
+        "BMI",
+        "DIDP-020390 1"
+      ],
+      "thumb": "https://img.discogs.com/uRVXYjQeTHbtxUyNExRXYyFhhfQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-464917-1261321703.jpeg.jpg",
+      "uri": "/Herbie-Hancock-Man-Child/release/464917",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "US",
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 104,
+        "have": 120
+      },
+      "label": [
+        "Columbia",
+        "CBS Inc.",
+        "CBS Inc.",
+        "Columbia Records",
+        "Wally Heider Studios",
+        "The Village Recorder",
+        "Funky Features",
+        "Crystal Sound"
+      ],
+      "cover_image": "https://img.discogs.com/vbtRd9ql01kNpiHbs42AzjRiVco=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-464917-1261321703.jpeg.jpg",
+      "catno": "CK 33812",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1990",
+      "genre": [
+        "Jazz",
+        "Funk / Soul"
+      ],
+      "resource_url": "https://api.discogs.com/releases/464917",
+      "master_id": 47832,
+      "type": "release",
+      "id": 464917
+    },
+    {
+      "style": [
+        "Jazz-Funk"
+      ],
+      "barcode": [],
+      "thumb": "",
+      "uri": "/Herbie-Hancock-Man-Child/release/4935315",
+      "title": "Herbie Hancock - Man-Child",
+      "country": "Australia",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 162,
+        "have": 36
+      },
+      "label": [
+        "CBS",
+        "Wally Heider Studios"
+      ],
+      "cover_image": "https://img.discogs.com/images/spacer.gif",
+      "catno": "SBP 234724",
+      "master_url": "https://api.discogs.com/masters/47832",
+      "year": "1975",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/4935315",
+      "master_id": 47832,
+      "type": "release",
+      "id": 4935315
+    },
+    {
+      "style": [
+        "Contemporary Jazz"
+      ],
+      "barcode": [],
+      "thumb": "https://img.discogs.com/6QtR3MKKeYAyiHeknIBqj_4CoCM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3381980-1528698790-1789.jpeg.jpg",
+      "uri": "/Louis-Armstrong-And-The-All-Stars-The-Sy-Oliver-Choir-Louis-And-The-Good-Book/release/3381980",
+      "title": "Louis Armstrong And The All Stars* & The Sy Oliver Choir - Louis And The Good Book",
+      "country": "UK",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Mono"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "want": 11,
+        "have": 38
+      },
+      "label": [
+        "Coral"
+      ],
+      "cover_image": "https://img.discogs.com/uzzGxF819OoYOLJgh-TT_qKKAWQ=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3381980-1528698790-1789.jpeg.jpg",
+      "catno": "CP 69",
+      "master_url": "https://api.discogs.com/masters/146019",
+      "year": "1970",
+      "genre": [
+        "Jazz"
+      ],
+      "resource_url": "https://api.discogs.com/releases/3381980",
+      "master_id": 146019,
+      "type": "release",
+      "id": 3381980
+    }
+  ]
+}

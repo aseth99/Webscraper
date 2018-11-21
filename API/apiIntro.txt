@@ -1,0 +1,125 @@
+INTRO: APIs
+
+Google & Youtube API: use to mine data from social media
+
+freegioip.net got taken down....
+using https://ipapi.com/ for now, signed up using ualberta email
+
+using:
+http://api.ipapi.com/173.239.230.58?access_key=92867bedbe5ebb11705791e1f3fadc43
+
+we get 
+
+{
+  "ip":"173.239.230.58",
+  "type":"ipv4",
+  "continent_code":"NA",
+  "continent_name":"North America",
+  "country_code":"CA",
+  "country_name":"Canada",
+  "region_code":"ON",
+  "region_name":"Ontario",
+  "city":"Toronto",
+  "zip":"M6G",
+  "latitude":43.6683,
+  "longitude":-79.4205,
+  "location":{
+    "geoname_id":6167865,
+    "capital":"Ottawa",
+    "languages":[
+      {
+        "code":"en",
+        "name":"English",
+        "native":"English"
+      },
+      {
+        "code":"fr",
+        "name":"French",
+        "native":"Fran\u00e7ais"
+      }
+    ],
+    "country_flag":"http:\/\/assets.ipapi.com\/flags\/ca.svg",
+    "country_flag_emoji":"\ud83c\udde8\ud83c\udde6",
+    "country_flag_emoji_unicode":"U+1F1E8 U+1F1E6",
+    "calling_code":"1",
+    "is_eu":false
+  }
+}
+
+
+Unlike most webscraping, APIs follow standardized set of rules to produce info
+produce info in standardized way
+ground rules for any API (well written):
+(some APIs deviate slightly, read specific API documentation)
+
+4 ways to request information from webserver via HTTP:
+GET --> use when you put address bar, visiting website. 
+"HEY WEB SERVER PLZ GET ME THIS INFO"
+POST --> use when you fill out form or submit info, submitting info to a backend server... usually username password(hopefully encrypted) and stuff
+"HEY WEB SERVER PLZ STORE THIS INFO IN UR DATABASE"
+PUT --> less common when interacting with websites.. used time to time with API to update object/info, API might need a post request to create user, need put to update users email address.
+many ppl use post instead of put. good to know difference. 
+
+DELETE --> deletes object, not commonly used
+"HEY WEB SERVER DELETE OBJECT"
+
+-------------------------------------------------------
+
+COMMUNICATING WITH APIS:
+
+AUTHENTICATION:
+
+some APIs dont use API authentication, anyone can make API call for free
+modern API require authentication before used. Some charge per API call, or monthly subscription. Use it restrict API calls/restrict info. Some have no restriction, but monitor calls
+
+Discogs API
+
+token = <your api key> , user gets when they register
+
+webRequest = urllib.request.Request(http://myapi.com, headers={"token":token}) 
+html = urlopen(webrequest)
+
+lets fk with this: https://www.discogs.com/developers/
+token:CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq
+
+lets us read:
+curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq"
+
+
+lets us read in better format.. but not working.. downloaded jq via brew, works now
+curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq" | jq '.'
+k
+
+lets us save file in .json
+curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq" | jq . > mjackson.json
+
+gets their releases
+curl "https://api.discogs.com/artists/3614738/releases?year,asc" | jq .
+
+
+Responses: features of API
+Usually well formatted: 
+XML or JSON
+Json more popular --> smaller 
+php or .net used to be on recieving end of API, now framework such as angular or backbone recieving
+
+javascript: backbone, node.js find json easier to handle
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
