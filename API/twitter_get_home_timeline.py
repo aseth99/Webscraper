@@ -14,9 +14,9 @@ from twitter_scraper_client import get_twitter_client
 
 
 if __name__ == '__main__':
-	testName = sys.argv[1]
+	#testName = sys.argv[1]
 	client = get_twitter_client()
-	fname = "home_timeline_{}.json".format(testName)
+	#fname = "home_timeline_{}.json".format(testName)
 	# #prints out the x number of tweets at top of timeline
 	# for status in Cursor(client.home_timeline).items(100):
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
 	#jsonl file allows file to be split, easier to process one line at a time
 
 	#limits to 800 from our own timeline, 3200 from a specific user 
-	with open(fname, 'w') as f:
+	with open("home_timeline.json", 'w') as f:
 		for page in Cursor(client.home_timeline, count=200).pages(4):
 			for status in page:
 				f.write(json.dumps(status._json)+"\n")
