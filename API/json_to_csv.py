@@ -1,7 +1,10 @@
 import json
 import csv
-import re
-import pandas as pd
+
+#this only works if JSON file is already scraped & saved as user_timeline_[twitterhandle] 
+
+# import re
+# import pandas as pd
 
 #code from https://stats.seandolinar.com/collecting-twitter-data-converting-twitter-json-to-csv-ascii/
 #and used https://stackoverflow.com/questions/21058935/python-json-loads-shows-valueerror-extra-data
@@ -18,16 +21,52 @@ import pandas as pd
 # for status in page:
 # f.write(json.dumps(status._json)+"\n")
 
-csvFileName = "tweets_Out.csv"
+chooseName = input("\nWhat should we name the csv file?\n\n\n")
+csvFileName = "{}.csv".format(chooseName)
 csv_out = open(csvFileName, mode='w') #opens csv file
 writer = csv.writer(csv_out) #create the csv writer object
 
-fields = ['Twitter Handle & User Name', 'Tweet', ' external URL', 'Date of Tweet', 'Followers', 'Following', 'RT', 'FAV'] #field names
+fields = ['Twitter Handle & User Name', 'Tweet', ' external URL', 'Hashtags', 'Date of Tweet', 'Followers', 'Following', 'RT', 'FAV'] #field names
 writer.writerow(fields) #writes field
 
 tweets = []
-for line in open('home_timeline_test.json', 'r'):
-    tweets.append(json.loads(line))
+filterArray = ["resilien","adversity","disaster","terrorist"]
+
+exitClause = "notdone"
+print("what words do we want to filter by? (already filtering by resilien,adversity,disaster or terrorist)\n\n\n")
+
+while exitClause != "done":
+    exitClause = input("(type done if finished)\n\n")
+    if exitClause == "done":
+    	break
+    filterWord = "{}".format(exitClause)
+    filterArray.append(filterWord)
+
+if exitClause == "done":
+    print("okay... now...")
+
+
+
+exitClause = "notdone"
+print("(this only works if JSON file is already scraped & saved as user_timeline_[twitterhandle])\n So whose tweets are we outputting to csv?\n\n\n")
+
+while exitClause != "done":
+    exitClause = input("(type done if finished)\n\n@")
+    if exitClause == "done":
+    	break
+    jsonFileToBeOpened = "user_timeline_{}.json".format(exitClause)
+    for line in open(jsonFileToBeOpened, 'r'):
+        tweets.append(json.loads(line))
+
+if exitClause == "done":
+    print("converting...")
+
+
+# for line in open('user_timeline_dutchdailynews.json', 'r'):
+#     tweets.append(json.loads(line))
+
+# for line in open('user_timeline_DutchNewsNL.json', 'r'):
+#     tweets.append(json.loads(line))
 
 for line in tweets:
  	
@@ -36,17 +75,34 @@ for line in tweets:
     	urlvar = urlvar[0].get('expanded_url')
     else:
     	urlvar = "no external urls in this tweet"
+
+    hashtagsVar = line.get('entities').get('hashtags')
+    tempHashList = []
+    if not hashtagsVar:
+    	hashtagsVar = "no hashtags in this tweet"
+    else:
+    	for i in hashtagsVar:
+    		tempHashList.append(i['text'])
+    	hashtagsVar = tempHashList
+
+
+
     #writes a row and gets the fields from the (now pyton) dict
     #screen_name and followers/friends are found on the second level hence two get methods
-    writer.writerow([line.get('user').get('screen_name')+" , "+line.get('user').get('name'),
-                     line.get('text').encode('unicode_escape'), #unicode escape to fix emoji issue
-	                 urlvar,
-                     line.get('created_at'),
-                     line.get('user').get('followers_count'),
-                     line.get('user').get('friends_count'),
-                     line.get('retweet_count'),
-                     line.get('favorite_count')])
- 
+    #filters and only puts tweets in csv that have the word "win" in tweets
+    
+    if any(x in line.get('text') for x in filterArray):
+
+	    writer.writerow([line.get('user').get('screen_name')+" , "+line.get('user').get('name'),
+	                     line.get('text').encode('unicode_escape'), #unicode escape to fix emoji issue
+	                     urlvar,
+	                     hashtagsVar,
+	                     line.get('created_at'),
+	                     line.get('user').get('followers_count'),
+	                     line.get('user').get('friends_count'),
+	                     line.get('retweet_count'),
+	                     line.get('favorite_count')])
+	 
 csv_out.close()
 
 

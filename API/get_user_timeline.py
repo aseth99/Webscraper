@@ -4,7 +4,9 @@ from tweepy import Cursor
 from twitter_scraper_client import get_twitter_client
 
 if __name__ == '__main__':
-	user = sys.argv[1] #uses first arguement that we enter in command
+	user = input("\nWhat twitter account should we scrape? \n\n\n@")
+	print("scraping...")
+	#sys.argv[1] #uses first arguement that we enter in command
 	client = get_twitter_client()
 	fname = "user_timeline_{}.json".format(user)
 
