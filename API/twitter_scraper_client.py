@@ -17,7 +17,7 @@
 # https://12factor.net/config
 # we not gona hardcode key and access token in python
 # cuz using environment to store config details is language and OS agnostic. Changing config for local doesnt require changes to src
-
+#this file authorizes twitter scraping, import get twitter client from here every time we gona scrape twitter
 # so set environment variables
 #have set 
 # export API_KEY=

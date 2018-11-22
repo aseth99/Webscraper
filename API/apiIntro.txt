@@ -6,7 +6,7 @@ freegioip.net got taken down....
 using https://ipapi.com/ for now, signed up using ualberta email
 
 using:
-http://api.ipapi.com/173.239.230.58?access_key=92867bedbe5ebb11705791e1f3fadc43
+http://api.ipapi.com/173.239.230.58?access_key=[]
 
 we get 
 
@@ -80,18 +80,18 @@ webRequest = urllib.request.Request(http://myapi.com, headers={"token":token})
 html = urlopen(webrequest)
 
 lets fk with this: https://www.discogs.com/developers/
-token:CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq
+token:[]
 
 lets us read:
-curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq"
+curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=[]]"
 
 
 lets us read in better format.. but not working.. downloaded jq via brew, works now
-curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq" | jq '.'
+curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=[]" | jq '.'
 k
 
 lets us save file in .json
-curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=CoJUfwpkHPKMoTfTQTwACYowDHEqONgyYmOecKfq" | jq . > mjackson.json
+curl "https://api.discogs.com/database/search?q=Michael%20Jackson&token=[]" | jq . > mjackson.json
 
 gets their releases
 curl "https://api.discogs.com/artists/3614738/releases?year,asc" | jq .
