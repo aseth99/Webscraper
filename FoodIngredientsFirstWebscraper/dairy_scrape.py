@@ -43,7 +43,7 @@ titleList = bsObj.findAll("a", {"id": "title"})
 
 with open("foodingredientsfirst.csv", "a") as csv_file:
 		writer = csv.writer(csv_file)
-		writer.writerow(["TITLE OF ARTICLE", "URL OF ARTICLE", "SUMMARY", "DATE/TIME  INFO WAS EXTRACTED"])
+		writer.writerow(["TITLE OF ARTICLE", "SUMMARY", "URL OF ARTICLE", "DATE/TIME  INFO WAS EXTRACTED"])
 #loop prints out each article, url and paragraph
 #each loop also writes a new row with that info into the csv file
 for name in titleList:
